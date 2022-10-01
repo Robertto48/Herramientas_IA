@@ -1,8 +1,8 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 class PLOT_UN_SQ():
   
-  import numpy as np
-  import matplotlib.pyplot as plt
-
   def plot_un_sq(self,e0,e1,e2,e1n,e2n,mycolor):
     e3=e1+e2
     un_sq=np.array([e0,e1,e2,e3])
